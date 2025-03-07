@@ -2,7 +2,6 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class DeckOfCards {
-
     // Suits and Ranks for the deck
     private static final String[] suits = { "Hearts", "Diamonds", "Clubs", "Spades" };
     private static final String[] ranks = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace" };
