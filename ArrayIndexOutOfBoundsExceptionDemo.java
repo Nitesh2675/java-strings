@@ -11,17 +11,16 @@ public class ArrayIndexOutOfBoundsExceptionDemo {
             names[i] = scanner.next();
         }
 
-        generateException(names);
+       
         handleException(names);
     }
 
     public static void generateException(String[] names) {
         System.out.println(names[names.length + 1]); // This will throw ArrayIndexOutOfBoundsException
     }
-
     public static void handleException(String[] names) {
         try {
-            System.out.println(names[names.length + 1]);
+             generateException(names);
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Caught ArrayIndexOutOfBoundsException: " + e.getMessage());
         }
