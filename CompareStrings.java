@@ -15,7 +15,6 @@ public class CompareStrings {
         System.out.println("Using equals(): " + result2);
         System.out.println("Results match: " + (result1 == result2));
     }
-
     public static boolean compareUsingCharAt(String str1, String str2) {
         if (str1.length() != str2.length()) return false;
         for (int i = 0; i < str1.length(); i++) {
