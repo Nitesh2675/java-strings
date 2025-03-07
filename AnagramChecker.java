@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class AnagramChecker {
-
     // Method to check if two texts are anagrams
     public static boolean areAnagrams(String text1, String text2) {
         // Remove spaces and convert to lowercase for accurate comparison
