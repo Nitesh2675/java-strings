@@ -17,7 +17,6 @@ public class CreateSubstring {
         System.out.println("Using substring(): " + substring2);
         System.out.println("Results match: " + substring1.equals(substring2));
     }
-
     public static String createSubstringUsingCharAt(String text, int start, int end) {
         StringBuilder substring = new StringBuilder();
         for (int i = start; i < end; i++) {
